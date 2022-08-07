@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body background="images.jfif">
+    
+    <h1>This is HTML form </h1>
+    <form action="backend.php">
+        <div>
+            <label for="name">name :</label>
+            <input type="text" name="my name" placeholder="name" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="role">Role :</label>
+            <input type="text" name="my role" id="role" placeholder="role">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email :</label>
+            <input type="Email" name="my Email" id="email" placeholder="Email" required>
+        </div>
+        <br>
+        <div>
+            <label for="date">DOB:</label>
+            <input type="date" name="date" id="date" required>
+        </div>
+        <br>
+        <div>
+
+            are you eligible ?<input type="checkbox" name="my eligibility">
+        </div>
+        <br>
+        <div>
+            <label for="my gender">Gender :</label>
+            male<input type="radio" name="my gender" id="my gender"> female<input type="radio" name="my gender"
+                id="my gender">
+            other<input type="radio" name="my gender" id="my gender">
+        </div>
+        <br>
+        <div>
+            <label for="Age">Age:</label>
+            <input type="number" name="Age" id="Age" min="1" max="150" placeholder="age">
+        </div>
+        <br>
+        <div>
+            <label for="car">Car :</label>
+            <select name="car" id="car">
+                <option value="Audi">Audi</option>
+                <option value="Bmw">Bmw</option>
+                <option value="mercedes">mercedes</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Write about yourself : <br><textarea name="text" cols="90" rows="10"></textarea>
+
+        </div>
+        <br>
+        <div>
+
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset now">
+        </div>
+        <br>
+
+
+    </form>
+    
+</body>
+
+</html>
